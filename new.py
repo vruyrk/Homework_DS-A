@@ -48,7 +48,7 @@ class User:
 
 class Student(User):
     def __init__(self, first_name, last_name, ID, mail, password):
-        super(User, self).__init__(first_name, last_name, ID, mail, password)
+        super(User, self).__init__(first_name, last_name, ID, mail, password)  #My python is 2.7 that's why 'super' doesn't work, don't know what to replace instead of it
         self.courses = []
         self.grades = []
 
